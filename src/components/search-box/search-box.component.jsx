@@ -1,5 +1,7 @@
 import { Component } from "react";
 
+import './search-box.styles.css'
+
 class SearchBox extends Component {
 
     render() {
@@ -10,7 +12,6 @@ class SearchBox extends Component {
                    onChange={this.props.onChangeHandler} />
         )
     }
-
 }
 
 export default  SearchBox;
